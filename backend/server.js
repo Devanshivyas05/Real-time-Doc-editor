@@ -36,4 +36,4 @@ app.get("/load/:filename", (req, res) => {
   });
 });
 
-app.listen(PORT, () => console.log(`✅ Backend running at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`✅ Backend running at https://real-time-doc-editor.vercel.app:${PORT}`));
