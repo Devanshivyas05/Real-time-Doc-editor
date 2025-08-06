@@ -98,7 +98,7 @@ require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const Document = require("./models/Document");  // <--- Document Model Import Kiya
+const Document = require("./models/document");  // <--- Document Model Import Kiya
 
 const app = express();
 const PORT = process.env.PORT || 5000;
